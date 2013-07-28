@@ -5,7 +5,7 @@ var app = express.createServer(express.logger());
 app.get('/', function(request, response) {
 var fs = require('fs');
 
-var buff = new Buffer(fs.readFileSync('index.html','utf8'));
+var buff = new Buffer(fs.readFileSync('screen-5371e3cc0f.html','utf8'));
   response.send(buff.toString());    
 });
 
