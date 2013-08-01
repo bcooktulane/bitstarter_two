@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body { padding-top: 60px; /* 60px to make the container go all the way
+      to the bottom of the topbar */ }
+    </style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+      </script>
+    <![endif]-->
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <style>
+    </style>
+  </head>
+  <body>
+    <div class="navbar-wrapper">
+    	<div class="container">
+    		<div class="navbar navbar-inverse navbar-fixed-top">
+    			<div class="navbar-inner">
+    				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    				</button>
+    				<a class="brand" href="/home">CompMatrix</a>
+    				<div class="nav-collapse collapse">
+    					<ul class="nav">
+    						<li class="active">
+    							<a href="/home">Home</a>
+    						</li>
+    						<li>
+    							<a href="/join">Join</a>
+    						</li>
+    						<li>
+    							<a href="/about">About</a>
+    						</li>
+    						<li class="dropdown">
+    							<ul class="dropdown-menu">
+    								<li>
+    									<a href="#">Action</a>
+    								</li>
+    								<li>
+    									<a href="#">Another action</a>
+    								</li>
+    								<li>
+    									<a href="#">Something else here</a>
+    								</li>
+    								<li class="divider">
+    								</li>
+    								<li class="nav-header">
+    									Nav header
+    								</li>
+    								<li>
+    									<a href="#">Separate</a>
+    								</li>
+    								<li>
+    									<a href="#">One more separated link</a>
+    								</li>
+    							</ul>
+    						</li>
+    					</ul>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-pause="remove">
+    	<div class="carousel-inner">
+    		<div class="item" style="background-image: url('https://s3.amazonaws.com/jetstrap-site/images/builder/templates/cta_image1.jpg')">
+    			<div class="container">
+    				<div class="carousel-caption">
+    					<h1>
+    						The Future of Workers Comp
+    					</h1>
+    					<p class="lead">
+    						Make pricing comp effortless with CompMatrix. Enter the class code, payroll,
+    						mod, and
+    						<b>you're done</b>
+    					</p>
+    					<a class="btn btn-large btn-primary" href="/join">Get Started</a>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="item active" style="background-image: url('https://s3.amazonaws.com/jetstrap-site/images/builder/templates/cta_image2.jpg')">
+    			<div class="container">
+    				<div class="carousel-caption">
+    					<h1>
+    						Become a comp expert.
+    					</h1>
+    					<p class="lead">
+    						Know your carriers inside and out. See what other agents are saying about
+    						companies in your state. Understand the underwriting sticking points for
+    						every class code.&nbsp;
+    					</p>
+    					<a class="btn btn-large btn-primary" href="/join">Join Us</a>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="item" style="background-image: url('https://s3.amazonaws.com/jetstrap-site/images/builder/templates/cta_image3.jpg')">
+    			<div class="container">
+    				<div class="carousel-caption">
+    					<h1>
+    						Detailed pricing tables.
+    					</h1>
+    					<p class="lead">
+    						Scheduled rating for every carrier, max and min price ranges, fully adjustable
+    						sliders so you can present numbers to clients with confidence.
+    					</p>
+    					<a class="btn btn-large btn-primary" href="/about">Show Me<br></a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+    	<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+    </div>
+    <div class="container marketing">
+    	<div class="row">
+    		<div class="span4">
+    			<img class="img-circle" data-src="holder.js/140x140">
+    			<img src="https://s3.amazonaws.com/jetstrap-site/images/website/index/what_icon.png">
+    			<h2>
+    				What is it?
+    			</h2>
+    			<p>
+    				Supercharge placing workers comp insurance with CompMatrix. Estimates
+    				from every carrier in
+    				<i>under 5 seconds.</i>
+    				Detailed breakdowns of every quote help you find markets faster and spend
+    				more time on what's important. A community of workers comp professionals
+    				working together.
+    			</p>
+    			<p>
+    			</p>
+    		</div>
+    		<!-- /.span4 -->
+    		<div class="span4">
+    			<img src="https://s3.amazonaws.com/media.jetstrap.com/yM0yHWJUTjKfFcF7YO8C_who_icon.png">
+    			<img class="img-circle" data-src="holder.js/140x140">
+    			<h2>
+    				Who is it for?
+    			</h2>
+    			<p>
+    				Designed by insurance agents for insurance agents. We were tired of wasting
+    				time with constant declinations and it was only getting worse in a tight
+    				market. We created CompMatrix to cut through the noise and find carriers
+    				who will quote as fast as possible.&nbsp;
+    			</p>
+    			<p>
+    			</p>
+    		</div>
+    		<!-- /.span4 -->
+    		<div class="span4">
+    			<img src="https://s3.amazonaws.com/media.jetstrap.com/ACJ8ZVu0TyWrRSbdQC9x_why_icon.png">
+    			<img class="img-circle" data-src="holder.js/140x140">
+    			<h2>
+    				Why you'll love it
+    			</h2>
+    			<p>
+    				Let's face it, comp can be frustrating. Let us keep track of carrier appetite
+    				and price trends. Stop submitting business to every carrier, find the cheapest
+    				and most likely to quote with CompMatrix. Discover new carriers through
+    				other agents and timely submissions a thing of the past.&nbsp;
+    			</p>
+    			<p>
+    			</p>
+    		</div>
+    	</div>
+    	<hr class="featurette-divider">
+    	<div class="featurette">
+    		<img class="featurette-image pull-left" src="http://twitter.github.com/bootstrap/assets/img/examples/browser-icon-firefox.png">
+    		<h2 class="featurette-heading">
+    			Find a market in seconds,
+    			<span class="muted">it's that easy.</span>
+    		</h2>
+    		<p class="lead">
+    			Class code, payroll, experience modifier and boom! Hundreds of estimates
+    			at your fingertips. Dive into more detail, adjust them to your specs, view
+    			underwriting appetite quirks for each company. Everything is right here.&nbsp;
+    		</p>
+    	</div>
+    	<hr class="featurette-divider">
+    	<div class="featurette">
+    		<img class="featurette-image pull-right" src="http://twitter.github.com/bootstrap/assets/img/examples/browser-icon-safari.png">
+    		<h2 class="featurette-heading">
+    			It's a community
+    			<span class="muted">for workers comp agents only.</span>
+    		</h2>
+    		<p class="lead">
+    			You shouldn't be going the road alone. Every agent understands their carriers
+    			the best. We let you adjust prices and provide tips about dealing with
+    			your underwriters. Then we compile everything and share it with the community.
+    			Best of all, this tool is just for agents. There's power in numbers.&nbsp;
+    		</p>
+    	</div>
+    	<hr class="featurette-divider">
+    	<footer>
+    		<p class="pull-right">
+    			<a href="#">Back to top</a>
+    		</p>
+    		<p>
+    			© 2013 CompMatrix, LLC. ·
+    			<a href="#">Privacy</a>
+    			·
+    			<a href="#">Terms</a>
+    		</p>
+    	</footer>
+    </div>
+
+    <style>
+      
+      /* GLOBAL STYLES
+      -------------------------------------------------- */
+      /* Lighter body text */
+      
+      body {
+        color: #5a5a5a;
+      }
+      
+      
+      
+      /* CUSTOMIZE THE NAVBAR
+      -------------------------------------------------- */
+      
+      /* Special class on .container surrounding .navbar, used for positioning it into place. */
+      .navbar-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        margin-top: 20px;
+        margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+      }
+      
+      /* Remove border and change up box shadow for more contrast */
+      .navbar .navbar-inner {
+        border: 0;
+        -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+        -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+        box-shadow: 0 2px 10px rgba(0,0,0,.25);
+      }
+      
+      /* Downsize the brand/project name a bit */
+      .navbar .brand {
+        padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+        font-size: 16px;
+        font-weight: bold;
+        text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+      }
+      
+      /* Navbar links: increase padding for taller navbar */
+      .navbar .nav > li > a {
+        padding: 15px 20px;
+      }
+      
+      /* Offset the responsive button for proper vertical alignment */
+      .navbar .btn-navbar {
+        margin-top: 10px;
+      }
+      
+      
+      
+      /* CUSTOMIZE THE CAROUSEL
+      -------------------------------------------------- */
+      
+      /* Carousel base class */
+      .carousel {
+        margin-bottom: 60px;
+      }
+      
+      .carousel .container {
+        position: relative;
+        z-index: 9;
+      }
+      
+      .carousel-control {
+        height: 80px;
+        margin-top: 0;
+        font-size: 120px;
+        text-shadow: 0 1px 1px rgba(0,0,0,.4);
+        background-color: transparent;
+        border: 0;
+        z-index: 10;
+      }
+      
+      .carousel .item {
+        height: 500px;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+      }
+      
+      .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 550px;
+        padding: 0 20px;
+        margin-top: 200px;
+      }
+      
+      .carousel-caption h1,
+      .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      }
+      
+      .carousel-caption .btn {
+        margin-top: 10px;
+      }
+      
+      
+      
+      /* MARKETING CONTENT
+      -------------------------------------------------- */
+      
+      /* Center align the text within the three columns below the carousel */
+      .marketing .span4 {
+        text-align: center;
+      }
+      
+      .marketing h2 {
+        font-weight: normal;
+      }
+      
+      .marketing .span4 p {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      
+      
+      /* Featurettes
+      ------------------------- */
+      
+      .featurette-divider {
+        margin: 80px 0; /* Space out the Bootstrap <hr> more */
+      }
+      
+      .featurette {
+        padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+        overflow: hidden; /* Vertically center images part 2: clear their floats. */
+      }
+      
+      .featurette-image {
+        margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+      }
+      
+      /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+      .featurette-image.pull-left {
+        margin-right: 40px;
+      }
+      
+      .featurette-image.pull-right {
+        margin-left: 40px;
+      }
+      
+      /* Thin out the marketing headings */
+      .featurette-heading {
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: -1px;
+      }
+      
+      
+      
+      /* RESPONSIVE CSS
+      -------------------------------------------------- */
+      
+      @media (max-width: 979px) {
+      
+        .container.navbar-wrapper {
+          margin-bottom: 0;
+          width: auto;
+        }
+      
+        .navbar-inner {
+          border-radius: 0;
+          margin: -20px 0;
+        }
+      
+        .carousel .item {
+          height: 500px;
+        }
+      
+        .carousel img {
+          width: auto;
+          height: 500px;
+        }
+      
+        .featurette {
+          height: auto;
+          padding: 0;
+        }
+      
+        .featurette-image.pull-left,
+        .featurette-image.pull-right {
+          display: block;
+          float: none;
+          max-width: 40%;
+          margin: 0 auto 20px;
+        }
+      }
+      
+      
+      @media (max-width: 767px) {
+        .carousel {
+          margin-left: -20px;
+          margin-right: -20px;
+        }
+      
+        .carousel .item {
+          height: 300px;
+        }
+      
+        .carousel img {
+          height: 300px;
+        }
+      
+        .carousel-caption {
+          width: 65%;
+          padding: 0 70px;
+          margin-top: 100px;
+        }
+      
+        .carousel-caption h1 {
+          font-size: 30px;
+        }
+      
+        .carousel-caption .lead,
+        .carousel-caption .btn {
+          font-size: 18px;
+        }
+      
+        .marketing .span4 + .span4 {
+          margin-top: 40px;
+        }
+      
+        .featurette-heading {
+          font-size: 30px;
+        }
+      
+        .featurette .lead {
+          font-size: 18px;
+          line-height: 1.5;
+        }
+      }
+      
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+    </script>
+    <script src="assets/js/bootstrap.js">
+    </script>
+    <script>
+
+    </script>
+  </body>
+</html>
